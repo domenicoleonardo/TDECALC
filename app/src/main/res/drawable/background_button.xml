@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Item para o botão Male -->
+    <item android:state_checked="true" android:id="@+id/male_checked">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/blue"/>
+        </shape>
+    </item>
+    <item android:state_checked="false" android:id="@+id/male_unchecked">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/blue"/>
+        </shape>
+    </item>
+
+</selector>
